@@ -1,0 +1,49 @@
+  /* Homework 3 */
+  body {
+    font-family: Arial;
+}
+
+/*align the text in the center*/
+.center{
+    text-align: center;
+}
+
+/*make the font size of the acknowledgments smaller*/
+#smaller{
+    font-size: 20px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  /* images stay the same even when you expand and condense the webpage */
+#img1 {
+    width:80%;
+    height: inherit;
+    object-fit: cover;
+    object-positon: center center;
+  }
+  #img2 {
+    width: 80%;
+    height: inherit;
+    object-fit: cover;
+    object-positon: center center;
+  }
+
+
+  /* adjust the sizing of the images */
+  .rounded {
+    max-width: 30rem;
+    border-radius: .75rem;
+    
+  }
