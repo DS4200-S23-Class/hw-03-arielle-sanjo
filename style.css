@@ -40,6 +40,14 @@
     object-positon: center center;
   }
 
+  #img3 {
+    width: 80%;
+    height: inherit;
+    object-fit: cover;
+    object-positon: center center;
+  }
+
+
 
   /* adjust the sizing of the images */
   .rounded {
